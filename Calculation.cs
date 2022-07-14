@@ -8,14 +8,8 @@ namespace homework_3
 {
     public abstract class Calculation
     {
-        
-        public abstract int Number();
 
-        public int Number1 = 5;
-        public int Number2 = 5;
-        
-      
-
+        public abstract int Number(int number1,int number2);
 
     }
 }

@@ -8,9 +8,9 @@ namespace homework_3
 {
     internal sealed class Addition : Calculation
     {
-        public override int Number()
+        public override int Number(int number1,int number2)
         {
-            return Number2 + Number1;
+            return number1 + number2;
         }
     }
 }

@@ -8,9 +8,9 @@ namespace homework_3
 {
     internal sealed class Substraction : Calculation
     {
-        public override int Number()
+        public override int Number(int number1,int number2)
         {
-            return Number1 - Number2;
+            return number1-number2;
         }
     }
 }

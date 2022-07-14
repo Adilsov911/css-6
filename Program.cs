@@ -9,17 +9,17 @@ namespace homework_3
           Addition addition = new Addition();
             
             
-            Console.WriteLine(addition.Number());
+            Console.WriteLine(addition.Number(5,5));
 
             Substraction substraction = new Substraction();
 
-            Console.WriteLine(substraction.Number());
+            Console.WriteLine(substraction.Number(7,6));
 
             Multiplication multiplication = new Multiplication();
-            Console.WriteLine(multiplication.Number());
+            Console.WriteLine(multiplication.Number(3,5));
 
             Division division = new Division();
-            Console.WriteLine(division.Number());
+            Console.WriteLine(division.Number(100,20));
         }
 
         
